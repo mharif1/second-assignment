@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------main section styles ---------- */
+/* Top section  */
+.top-banner {
+    background-color: black;
+    width: 900px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+
+}
+
+.container {
+    display: flex;
+}
+
+.heading-text {
+    color: white;
+    padding-left: 20px;
+}
+
+.heading-text h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.heading-text a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.banner-image {
+    padding-top: 50px;
+}
+
+.banner-image img {
+    height: 350px;
+}
+/* -----------menu bar ---------- */
+.menu-bar {
+    width: 250px;
+    height: 212px;
+    border: 2px solid;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.menu li {
+    list-style: none;
+    padding-top: 20px;
+    ;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+}
+
+#blog-button {
+    background-color: red;
+}
