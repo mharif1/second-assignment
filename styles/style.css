@@ -46,6 +46,14 @@ body {
 }
 
 /* ----Middle section----- */
+
+.mid-secton {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+/* ---------menu start----------- */
 .menu-bar {
     width: 250px;
     height: 212px;
@@ -58,7 +66,7 @@ body {
 .menu li {
     list-style: none;
     padding-top: 20px;
-    ;
+
 }
 
 .button {
@@ -67,20 +75,15 @@ body {
     font-weight: 700;
     cursor: pointer;
     border-radius: 5px;
-
-
 }
 
 #blog-button {
     background-color: red;
 }
 
-.mid-secton {
-    display: flex;
-    margin-bottom: 100px;
+/* ----------menu end ----------- */
 
-}
-
+/* ---------------blogs start ---------------- */
 .all-blogs {
     width: 100%;
     display: grid;
@@ -103,6 +106,13 @@ body {
     font-size: 20px;
 }
 
+.icons {
+    display: inline;
+    white-space: nowrap;
+    float: initial;
+}
+
+/* ------------------ blogs end ---------------- */
 
 /* -------------------footer ------------ */
 footer {
@@ -127,7 +137,74 @@ footer a {
     padding: 20px;
     margin-left: 20px;
 }
-.links{
+
+.links {
     margin-left: 400px;
     padding-top: 20px;
 }
+/* -------------media query------------ */
+
+/* ===============Responsive For Mobile============== */
+@media only screen and (max-width: 688px) {
+    .top-banner {
+        width: 334px;
+        height: 672px;
+
+    }
+
+    .heading-text h1 {
+        text-align: center;
+        font-size: 28px;
+        margin-left: 50px;
+    }
+
+    .heading-text p {
+        display: none;
+
+    }
+
+    .heading-text a {
+        margin-left: 50px;
+    }
+
+    .banner-image {
+        position: relative;
+        width: 250px;
+        height: 245px;
+        right: 180px;
+        top: 250px;
+    }
+    .mid-secton, .all-blogs{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        padding-left: 50px;
+    }
+    footer{
+        width: 100%;
+        height: 500px;
+    }
+    footer a{
+        display: inline-block;
+    }
+
+}
+/* =============Responsive For Tablet========== */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .top-banner{
+        right: 100px;
+    }
+    .menu-bar{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .mid-secton, .all-blogs{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        padding-left: 50px;
+    }    
+    footer{
+        width: 100%;
+    }
+}
+
+
