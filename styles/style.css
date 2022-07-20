@@ -6,7 +6,7 @@ body {
 /* Top section  */
 .top-banner {
     background-color: black;
-    width: 900px;
+    width: 1000px;
     height: 400px;
     margin-top: 50px;
     margin-left: 100px;
@@ -92,7 +92,7 @@ body {
 }
 
 .match-box {
-    width: 210px;
+    width: 230px;
     height: 282px;
     box-shadow: 5px 10px 5px lightgray;
     border-radius: 10px;
